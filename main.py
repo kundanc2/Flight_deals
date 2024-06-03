@@ -1,1 +1,5 @@
-#This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
+from pprint import pprint
+from flight_data import FlightData,GET_ENDPOINT
+
+flightdata=FlightData()
+flightdata.getiing(GET_ENDPOINT)
